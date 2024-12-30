@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F4D1D1"
+    android:padding="30dp">
+
+    <EditText
+        android:id="@+id/etCityName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the city name"
+        android:background="#FFFFFF"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/etCountryName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter the country name"
+        android:inputType="text"
+        android:background="#FFFFFF"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:layout_marginTop="28dp" />
+
+    <Button
+        android:id="@+id/btnFindCoordinates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find coordinates"
+        android:textSize="20dp"
+        android:layout_marginTop="46dp" />
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_marginTop="26dp"
+        android:textColor="@android:color/black" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center" />
+
+</LinearLayout>
